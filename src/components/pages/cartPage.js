@@ -1,10 +1,18 @@
 import React from 'react'
-
-  const Cartpage = () => {
+import AntdisignSidbar from './adminpanel/sidebar'
+const Cartpage = () => {
 
     return (
-        <div > Cartpage </div>
+        <div >
+            <AntdisignSidbar/>
+
+            <div className='sectioncontent'>
+                <h1>
+                    olla
+                </h1>
+            </div>
+        </div>
     )
-  }
+}
 
 export default Cartpage

@@ -12,7 +12,7 @@ const App = ({ ServiceProvider })=>{
        <Switch>
            <Route path='/' component={Homepage} exact/>
 
-           <Route path='/cart' component={Cartpage} exact/>
+           <Route path='/antdmenue' component={Cartpage} exact/>
        </Switch>
     )
 }
